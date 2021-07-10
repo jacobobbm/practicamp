@@ -1,0 +1,464 @@
+@startuml
+
+title __SPACESHIPSALE's Class Diagram__\n
+
+  namespace  {
+    class MavenWrapperDownloader {
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      class com.es.spaceship.sale.SpaceshipSaleApplication {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace controller {
+        class com.es.spaceship.sale.controller.ManageBattleController {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace controller {
+        class com.es.spaceship.sale.controller.ManageBuySellController {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace dto {
+        class com.es.spaceship.sale.dto.ProbeInformationDTO {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace dto {
+        class com.es.spaceship.sale.dto.RankingDTO {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace exception {
+        class com.es.spaceship.sale.exception.BusinessException {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace exception {
+        class com.es.spaceship.sale.exception.RestExceptionHandler {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace exception {
+        class com.es.spaceship.sale.exception.SolunionRestException {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace exception {
+        class com.es.spaceship.sale.exception.TechnicalException {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace factory {
+        class com.es.spaceship.sale.factory.MockFactoryInt {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace models.dao {
+        interface com.es.spaceship.sale.models.dao.ArmorDao {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace models.dao {
+        interface com.es.spaceship.sale.models.dao.BattleDao {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace models.dao {
+        interface com.es.spaceship.sale.models.dao.CommentsDao {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace models.dao {
+        interface com.es.spaceship.sale.models.dao.DefenseSystemDao {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace models.dao {
+        interface com.es.spaceship.sale.models.dao.NotificationDao {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace models.dao {
+        interface com.es.spaceship.sale.models.dao.OffersDao {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace models.dao {
+        interface com.es.spaceship.sale.models.dao.SalesShipDao {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace models.dao {
+        interface com.es.spaceship.sale.models.dao.ShieldDao {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace models.dao {
+        interface com.es.spaceship.sale.models.dao.ShipDao {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace models.dao {
+        interface com.es.spaceship.sale.models.dao.ShipTypeDao {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace models.dao {
+        interface com.es.spaceship.sale.models.dao.UserDao {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace models.dao {
+        interface com.es.spaceship.sale.models.dao.WeaponDao {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace models.entity {
+        class com.es.spaceship.sale.models.entity.Armor {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace models.entity {
+        class com.es.spaceship.sale.models.entity.Battle {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace models.entity {
+        class com.es.spaceship.sale.models.entity.Comments {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace models.entity {
+        class com.es.spaceship.sale.models.entity.DefenseSystem {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace models.entity {
+        class com.es.spaceship.sale.models.entity.Motor {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace models.entity {
+        class com.es.spaceship.sale.models.entity.Notification {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace models.entity {
+        class com.es.spaceship.sale.models.entity.NotificationError {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace models.entity {
+        class com.es.spaceship.sale.models.entity.Offers {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace models.entity {
+        class com.es.spaceship.sale.models.entity.Rol {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace models.entity {
+        class com.es.spaceship.sale.models.entity.SalesShip {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace models.entity {
+        class com.es.spaceship.sale.models.entity.Shield {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace models.entity {
+        class com.es.spaceship.sale.models.entity.ShipType {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace models.entity {
+        class com.es.spaceship.sale.models.entity.Ships {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace models.entity {
+        class com.es.spaceship.sale.models.entity.User {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace models.entity {
+        class com.es.spaceship.sale.models.entity.Weapon {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace service {
+        interface com.es.spaceship.sale.service.IManageBattleService {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace service {
+        interface com.es.spaceship.sale.service.IManageBuySellService {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace service {
+        namespace impl {
+          class com.es.spaceship.sale.service.impl.ManageBattleServiceImpl {
+          }
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace service {
+        namespace impl {
+          class com.es.spaceship.sale.service.impl.ManageBuySellServiceImpl {
+          }
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.es.spaceship.sale {
+      namespace util {
+        class com.es.spaceship.sale.util.Constants {
+        }
+      }
+    }
+  }
+  
+
+  com.es.spaceship.sale.controller.ManageBattleController o-- com.es.spaceship.sale.service.IManageBattleService : manageBattleService
+  com.es.spaceship.sale.controller.ManageBuySellController o-- com.es.spaceship.sale.factory.MockFactoryInt : mock
+  com.es.spaceship.sale.controller.ManageBuySellController o-- com.es.spaceship.sale.service.IManageBuySellService : service
+  com.es.spaceship.sale.exception.BusinessException -up-|> com.es.spaceship.sale.exception.SolunionRestException
+  com.es.spaceship.sale.exception.TechnicalException -up-|> com.es.spaceship.sale.exception.SolunionRestException
+  com.es.spaceship.sale.service.impl.ManageBattleServiceImpl .up.|> com.es.spaceship.sale.service.IManageBattleService
+  com.es.spaceship.sale.service.impl.ManageBattleServiceImpl o-- com.es.spaceship.sale.models.dao.BattleDao : battleDao
+  com.es.spaceship.sale.service.impl.ManageBattleServiceImpl o-- com.es.spaceship.sale.models.dao.NotificationDao : notificationDao
+  com.es.spaceship.sale.service.impl.ManageBattleServiceImpl o-- com.es.spaceship.sale.models.dao.ShipDao : shipDao
+  com.es.spaceship.sale.service.impl.ManageBattleServiceImpl o-- com.es.spaceship.sale.models.dao.UserDao : userDao
+  com.es.spaceship.sale.service.impl.ManageBuySellServiceImpl .up.|> com.es.spaceship.sale.service.IManageBuySellService
+  com.es.spaceship.sale.service.impl.ManageBuySellServiceImpl o-- com.es.spaceship.sale.models.dao.ArmorDao : armorDao
+  com.es.spaceship.sale.service.impl.ManageBuySellServiceImpl o-- com.es.spaceship.sale.models.dao.CommentsDao : commentsDao
+  com.es.spaceship.sale.service.impl.ManageBuySellServiceImpl o-- com.es.spaceship.sale.models.dao.ShipDao : dao
+  com.es.spaceship.sale.service.impl.ManageBuySellServiceImpl o-- com.es.spaceship.sale.models.dao.DefenseSystemDao : defenseSystemDao
+  com.es.spaceship.sale.service.impl.ManageBuySellServiceImpl o-- com.es.spaceship.sale.factory.MockFactoryInt : mock
+  com.es.spaceship.sale.service.impl.ManageBuySellServiceImpl o-- com.es.spaceship.sale.models.dao.OffersDao : offerDao
+  com.es.spaceship.sale.service.impl.ManageBuySellServiceImpl o-- com.es.spaceship.sale.models.dao.SalesShipDao : salesShipDao
+  com.es.spaceship.sale.service.impl.ManageBuySellServiceImpl o-- com.es.spaceship.sale.models.dao.ShieldDao : shieldDao
+  com.es.spaceship.sale.service.impl.ManageBuySellServiceImpl o-- com.es.spaceship.sale.models.dao.ShipTypeDao : shipTypeDao
+  com.es.spaceship.sale.service.impl.ManageBuySellServiceImpl o-- com.es.spaceship.sale.models.dao.UserDao : userDao
+  com.es.spaceship.sale.service.impl.ManageBuySellServiceImpl o-- com.es.spaceship.sale.models.dao.WeaponDao : weaponDao
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml
